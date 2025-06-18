@@ -1,8 +1,23 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/Montserrat-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/OpenSans-Regular.woff2') format('woff2');
+}
+
 /*Нормализация блочной модели*/
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    
 }
 
 /**
@@ -46,7 +61,7 @@ body,
 }
 
 /**
-Убираем стандартный маркер у маркерованного списка
+Убираем стандартный маркер у маркированного списка
 */
 :where(ul[class]){
     list-style: none;
@@ -102,29 +117,44 @@ body {
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    --color-light: #FFFFFF;
+    --color-light-alternate: #F9F9F9;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+    --color-grey: #2D2D2D;
+    --color-grey-alternate: #5A5A5A;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --font-family-base: 'Montserrat', sans-serif;
+    --font-family-alternate: 'Open Sans', sans-serif;
+
+    --container-width: 1200px;
+    --container-padding-x: 15px;
+
+    --transition-duration: 0.2s;
+
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+body{
+    font-family: var(--font-family-base);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-grey-alternate);
+    background-color: var(--color-light-);
+}
+
+.container{
+    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+    margin-inline: auto;
+    padding-inline: var(--container-padding-x);
+}
+
+.button{
+    background-color:#0078D4;
+    color: var(--color-light);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 120, 212, 0.2);
+
+}
+
+.button:hover{
+    background-color: #0066B0;
 }
