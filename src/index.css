@@ -17,7 +17,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    
+
 }
 
 /**
@@ -147,14 +147,26 @@ body{
     padding-inline: var(--container-padding-x);
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    color: var(--color-grey);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
 .button{
-    background-color:#0078D4;
+    background-color:#ee7917;
     color: var(--color-light);
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 120, 212, 0.2);
-
 }
 
 .button:hover{
-    background-color: #0066B0;
+    background-color: #be5e11;
 }

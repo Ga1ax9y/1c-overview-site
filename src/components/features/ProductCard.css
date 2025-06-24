@@ -1,0 +1,35 @@
+.products__list-item{
+    border: 1px solid var(--color-grey);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__list-img{
+    border-radius: 5px;
+}
+.products__list-title{
+    text-align: center;
+}
+
+.products__list-category{
+    text-align: center;
+}
+
+.products__list-price{
+    text-align: center;
+    color: var(--color-grey);
+}
+
+.products__list-description{
+    text-align:center;
+}
+
+.products__list-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+    margin-top: auto;
+}

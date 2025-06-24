@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__logo{
+    flex-shrink: 0;
+}
+
+.header__list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
