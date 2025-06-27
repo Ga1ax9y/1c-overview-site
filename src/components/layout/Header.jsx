@@ -1,24 +1,25 @@
 import './Header.css'
+import { Link } from 'react-router-dom';
 
 export default function Header(){
     return (
         <>
             <header className="header">
-                <a className="header__logo" href="/">
+                <Link className="header__logo" to="/">
                     <img src="./icons/logo.png"
                     alt="Human System logo"
                     className="header__logo-img"
                     width="150"
                     height="75"
                     />
-                </a>
+                </Link>
                 <nav className="header__menu">
                     <ul className="header__list">
                         <li className="header__list-item">
-                            <a className="header__list-link">Главная</a>
+                            <Link to="/" className="header__list-link">Главная</Link>
                         </li>
                         <li className="header__list-item">
-                            <a className="header__list-link">Программы 1С</a>
+                            <Link to="/products" className="header__list-link">Программы 1С</Link>
                         </li>
                     </ul>
                 </nav>
