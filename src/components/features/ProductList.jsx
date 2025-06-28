@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './ProductList.css'
 
 function ProductCard({product}) {
@@ -8,7 +9,9 @@ function ProductCard({product}) {
             <p className="products__list-category">{product.category}</p>
             <div className='products__list-footer'>
                 <p className="products__list-price">{product.price}</p>
-                <button className="button products__list-btn">Подробнее</button>
+                    <Link to={`/products/${product.id}`}>
+                        <button type='button' className="button products__list-btn">Подробнее</button>
+                    </Link>
             </div>
         </li>
     )

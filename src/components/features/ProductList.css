@@ -39,3 +39,7 @@
     gap: 5px;
     margin-top: auto;
 }
+
+.products__list-btn{
+    width: 100%;
+}
