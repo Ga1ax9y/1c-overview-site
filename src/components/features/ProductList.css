@@ -4,10 +4,38 @@
     gap: 20px;
 }
 
-.header__list-link {
-    text-decoration: none;
+.products__list-item{
+    border: 2px solid var(--color-orange);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.header__list-link:visited {
-    color: inherit
+.product__list-img{
+    border-radius: 5px;
+}
+.products__list-title{
+    text-align: center;
+}
+
+.products__list-category{
+    text-align: center;
+}
+
+.products__list-price{
+    text-align: center;
+    color: var(--color-grey);
+}
+
+.products__list-description{
+    text-align:center;
+}
+
+.products__list-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+    margin-top: auto;
 }

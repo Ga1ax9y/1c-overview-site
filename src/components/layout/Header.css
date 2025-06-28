@@ -15,3 +15,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.header__list-link {
+    text-decoration: none;
+}
+.header__list-item:hover {
+    color: var(--color-orange)
+}
+
+.header__list-link:visited {
+    color: inherit
+}

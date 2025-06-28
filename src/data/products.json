@@ -5,7 +5,7 @@
     "category": "Бухгалтерия",
     "price": "от 1090 BYN",
     "description": "для автоматизации требования бухгалтерского, налогового, оперативного, производственного учета по всем распространенным видам деятельности в полном соответствии белорусскому законодательству",
-    "imageUrl": "../images/1c-buhgalteriya.jpg"
+    "imageUrl": "../images/products/1c-buhgalteriya.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "category": "Зарплата и управление персоналом",
     "price": "от 870 BYN",
     "description": "для автоматизации процесса расчета зарплаты и кадрового учета",
-    "imageUrl": "../images/1c-zarplata.jpg"
+    "imageUrl": "../images/products/1c-zarplata.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "category": "Управление торговлей",
     "price": "от 870 BYN",
     "description": "для автоматизации задач оперативного и управленческого учета, анализа и планирования торговых операций",
-    "imageUrl": "../images/1c-upravleniye-torgovlei11.jpg"
+    "imageUrl": "../images/products/1c-upravleniye-torgovlei11.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "category": "Управление торговлей",
     "price": "от 870 BYN",
     "description": "для автоматизации оперативного торгового учета, более ранняя версия 1С:Управление торговлей ",
-    "imageUrl": "../images/1c-upravleniye-torgovlei10.jpg"
+    "imageUrl": "../images/products/1c-upravleniye-torgovlei10.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "category": "Документооборот",
     "price": "от 1812 BYN",
     "description": "для автоматизации документооборота в малых и средних компаниях",
-    "imageUrl": "../images/1c-dokumentooborotPROF.jpg"
+    "imageUrl": "../images/products/1c-dokumentooborotPROF.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "category": "Документооборот",
     "price": "от 9000 BYN",
     "description": "для автоматизации документооборота в средних и крупных компаниях ",
-    "imageUrl": "../images/1c-dokumentooborotKORP.jpg"
+    "imageUrl": "../images/products/1c-dokumentooborotKORP.jpg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "category": "1C CRM",
     "price": "Цена по запросу",
     "description": "для автоматизации и управления взаимоотношениями с клиентами",
-    "imageUrl": "../images/1c-CRM3.jpg"
+    "imageUrl": "../images/products/1c-CRM3.jpg"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "category": "1C CRM",
     "price": "Цена по запросу",
     "description": "для интеграции офисной АТС с crm - системой",
-    "imageUrl": "../images/1c-CRM-SoftFon.jpg"
+    "imageUrl": "../images/products/1c-CRM-SoftFon.jpg"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "category": "1С ERP",
     "price": "от 23 586 BYN",
     "description": "для автоматизации учета и управления на производственном предприятии",
-    "imageUrl": "../images/1c-upravleniye-predpriyatiem.jpg"
+    "imageUrl": "../images/products/1c-upravleniye-predpriyatiem.jpg"
   },
   {
     "id": 10,
@@ -77,6 +77,6 @@
     "category": "1C для управленческого учета",
     "price": "Цена по запросу",
     "description": "для автоматизации управленческого учета",
-    "imageUrl": "../images/1c-upravleniye-finansami.jpg"
+    "imageUrl": "../images/products/1c-upravleniye-finansami.jpg"
   }
 ]

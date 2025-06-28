@@ -123,6 +123,8 @@ body {
     --color-grey: #2D2D2D;
     --color-grey-alternate: #5A5A5A;
 
+    --color-orange: #ee7917;
+
     --font-family-base: 'Montserrat', sans-serif;
     --font-family-alternate: 'Open Sans', sans-serif;
 
@@ -160,8 +162,24 @@ svg * {
     transition-duration: var(--transition-duration);
 }
 
+svg *[fill] {fill: currentColor;}
+svg *[stroke] {stroke: currentColor;}
+
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    border: 0 !important;
+    padding: 0 !important;
+    white-space: nowrap !important;
+    clip-path: inset(100%) !important;
+    clip: rect(0 0 0 0) !important;
+    overflow: hidden !important;
+}
+
 .button{
-    background-color:#ee7917;
+    background-color:var(--color-orange);
     color: var(--color-light);
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 120, 212, 0.2);
@@ -169,4 +187,22 @@ svg * {
 
 .button:hover{
     background-color: #be5e11;
+}
+
+.about{
+    padding-bottom: 20px;
+}
+
+.about__text{
+    margin-bottom: 20px;
+}
+
+.about__title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.products__title{
+    text-align: center;
+    margin-bottom: 10px;
 }

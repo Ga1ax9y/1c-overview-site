@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "200+ сертификатов, зарегистрированных 1С",
+    "description": "(1С:Профессионал, 1С:Специалист, 1С:Эксперт по технологическим вопросам, 1С:Руководитель проектов)",
+    "imageUrl": "../images/advantages/certificate.svg"
+  },
+  {
+    "id": 2,
+    "title": "9+ средний стаж",
+    "description": "работы сотрудника в Хьюмен систем",
+    "imageUrl": "../images/advantages/office-worker.svg"
+  },
+  {
+    "id": 3,
+    "title": "83% внедренцев",
+    "description": "работали главными бухгалтерами или бухгалтерами",
+    "imageUrl": "../images/advantages/computer.svg"
+  },
+  {
+    "id": 4,
+    "title": "4,18% текучесть кадров",
+    "description": "(за последние 5 лет)",
+    "imageUrl": "../images/advantages/people.svg"
+  }
+]
