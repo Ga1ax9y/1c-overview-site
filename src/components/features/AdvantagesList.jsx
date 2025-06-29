@@ -1,4 +1,3 @@
-import './AdvantagesList.css'
 
 const Advantage = ({advantage}) => {
     return (

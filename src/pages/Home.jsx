@@ -1,5 +1,6 @@
 import AdvantagesList from "../components/features/AdvantagesList";
 import advantages from '../data/advantages.json'
+import './Home.css'
 
 const Home = () => {
     return (

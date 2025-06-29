@@ -1,5 +1,6 @@
 import ProductList  from "../components/features/ProductList";
 import products from '../data/products.json'
+import './Products.css'
 
 function Products(){
     return(
