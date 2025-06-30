@@ -25,6 +25,9 @@ const ProductDetails = () => {
                 <p className="product-details__description">{product.description}</p>
                 <p className="product-details__price title-medium">{product.price}</p>
             </div>
+            <p className="product-details__info">{product.info}</p>
+            <h2 className="product-order__title title-medium">Обзорное видео</h2>
+            <iframe width="560" height="315" src={product?.videoUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
             <div className="product-order container">
                 <h2 className="product-order__title title-medium">Закажите продукт</h2>
