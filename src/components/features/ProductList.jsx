@@ -17,7 +17,7 @@ function ProductCard({product}) {
 }
 function ProductList({products}){
     return (
-        <ul className="products__list container">
+        <ul className="products__list">
             {products.map(product => <ProductCard key={product.id} product={product}/>)}
         </ul>
     )

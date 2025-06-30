@@ -18,6 +18,7 @@
 
 .header__list-link {
     text-decoration: none;
+    text-wrap: nowrap;
 }
 .header__list-item:hover {
     color: var(--color-orange)
@@ -25,4 +26,12 @@
 
 .header__list-link:visited {
     color: inherit
+}
+
+@media (max-width: 412px) {
+    .header__list{
+        flex-direction: column;
+        gap: 2px;
+    }
+
 }

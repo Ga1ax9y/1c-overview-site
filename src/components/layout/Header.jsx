@@ -6,7 +6,7 @@ export default function Header(){
         <>
             <header className="header">
                 <Link className="header__logo" to="/">
-                    <img src="./icons/logo.png"
+                    <img src="/icons/logo.png"
                     alt="Human System logo"
                     className="header__logo-img"
                     width="150"

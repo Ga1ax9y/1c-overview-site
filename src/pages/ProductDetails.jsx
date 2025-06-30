@@ -1,15 +1,19 @@
 import { useParams } from "react-router-dom";
 import products from "../data/products.json";
 import './ProductDetails.css'
+import { useEffect } from "react";
 
 
 const ProductDetails = () => {
     const {id} = useParams();
     const product = products.find(product => product.id == id)
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    }, [])
 
     if (!product) {
         return <h1 className="product-details__title error">Продукт не найден</h1>;
-  }
+    }
 
     return (
         <>
